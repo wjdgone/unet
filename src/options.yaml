@@ -1,0 +1,12 @@
+# directories 
+
+idf : '20210912' # identifier; models and results save under this folder
+data_dir : '../datasets'
+model_dir : '../models'
+training_results_dir : '../training_results'
+testing_results_dir : '../testing_results'
+
+# training parameters 
+epochs : 50
+batch_size : 8
+lr : 1e-3
